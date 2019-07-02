@@ -1,6 +1,6 @@
-package com.weichuang.pinduoduo.config;
+package com.weichuang.pinduoduo_rd.config;
 
-import com.weichuang.pinduoduo.interceptor.MyHandlerInterceptor;
+import com.weichuang.pinduoduo_rd.interceptor.MyHandlerInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;

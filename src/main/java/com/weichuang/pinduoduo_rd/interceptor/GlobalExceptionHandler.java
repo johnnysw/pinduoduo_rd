@@ -1,4 +1,4 @@
-package com.weichuang.pinduoduo.interceptor;
+package com.weichuang.pinduoduo_rd.interceptor;
 
 import com.alibaba.fastjson.JSONObject;
 import org.springframework.web.bind.annotation.ControllerAdvice;

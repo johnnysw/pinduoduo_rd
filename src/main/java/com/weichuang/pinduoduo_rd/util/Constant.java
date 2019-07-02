@@ -1,4 +1,4 @@
-package com.weichuang.pinduoduo.util;
+package com.weichuang.pinduoduo_rd.util;
 
 public class Constant {
 

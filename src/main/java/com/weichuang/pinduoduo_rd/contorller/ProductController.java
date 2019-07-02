@@ -1,9 +1,9 @@
-package com.weichuang.pinduoduo.contorller;
+package com.weichuang.pinduoduo_rd.contorller;
 
 import com.alibaba.fastjson.JSON;
-import com.weichuang.pinduoduo.annotation.UserLoginToken;
-import com.weichuang.pinduoduo.entity.Product;
-import com.weichuang.pinduoduo.service.ProductService;
+import com.weichuang.pinduoduo_rd.annotation.UserLoginToken;
+import com.weichuang.pinduoduo_rd.entity.Product;
+import com.weichuang.pinduoduo_rd.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

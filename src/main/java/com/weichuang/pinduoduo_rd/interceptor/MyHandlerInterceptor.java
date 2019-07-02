@@ -1,14 +1,14 @@
-package com.weichuang.pinduoduo.interceptor;
+package com.weichuang.pinduoduo_rd.interceptor;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.exceptions.JWTDecodeException;
 import com.auth0.jwt.exceptions.JWTVerificationException;
-import com.weichuang.pinduoduo.annotation.PassToken;
-import com.weichuang.pinduoduo.annotation.UserLoginToken;
-import com.weichuang.pinduoduo.entity.User;
-import com.weichuang.pinduoduo.service.UserService;
+import com.weichuang.pinduoduo_rd.annotation.PassToken;
+import com.weichuang.pinduoduo_rd.annotation.UserLoginToken;
+import com.weichuang.pinduoduo_rd.entity.User;
+import com.weichuang.pinduoduo_rd.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.method.HandlerMethod;

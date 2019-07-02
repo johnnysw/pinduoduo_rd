@@ -1,8 +1,8 @@
-package com.weichuang.pinduoduo.service.impl;
+package com.weichuang.pinduoduo_rd.service.impl;
 
-import com.weichuang.pinduoduo.dao.ProductMapper;
-import com.weichuang.pinduoduo.entity.Product;
-import com.weichuang.pinduoduo.service.ProductService;
+import com.weichuang.pinduoduo_rd.dao.ProductMapper;
+import com.weichuang.pinduoduo_rd.entity.Product;
+import com.weichuang.pinduoduo_rd.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

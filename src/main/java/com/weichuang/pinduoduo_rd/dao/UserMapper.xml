@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.weichuang.pinduoduo.dao.UserMapper">
+<mapper namespace="com.weichuang.pinduoduo_rd.dao.UserMapper">
 
-    <select id="login" resultType="User">
+    <select id="login" resultType="com.weichuang.pinduoduo_rd.entity.User">
         select * from t_user
         where username=#{username} and password=#{password}
     </select>
 
 
-    <select id="findUserById" resultType="User" parameterType="String">
+    <select id="findUserById" resultType="com.weichuang.pinduoduo_rd.entity.User" parameterType="String">
         select * from t_user where id = #{userId}
     </select>
 

@@ -1,7 +1,7 @@
-package com.weichuang.pinduoduo.service;
+package com.weichuang.pinduoduo_rd.service;
 
 
-import com.weichuang.pinduoduo.entity.User;
+import com.weichuang.pinduoduo_rd.entity.User;
 import org.springframework.stereotype.Service;
 
 

@@ -1,6 +1,6 @@
-package com.weichuang.pinduoduo.dao;
+package com.weichuang.pinduoduo_rd.dao;
 
-import com.weichuang.pinduoduo.entity.Product;
+import com.weichuang.pinduoduo_rd.entity.Product;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 

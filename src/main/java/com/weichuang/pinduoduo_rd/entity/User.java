@@ -1,4 +1,4 @@
-package com.weichuang.pinduoduo.entity;
+package com.weichuang.pinduoduo_rd.entity;
 
 /**
  * 实体类

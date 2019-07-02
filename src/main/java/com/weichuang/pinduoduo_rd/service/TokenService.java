@@ -1,8 +1,8 @@
-package com.weichuang.pinduoduo.service;
+package com.weichuang.pinduoduo_rd.service;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
-import com.weichuang.pinduoduo.entity.User;
+import com.weichuang.pinduoduo_rd.entity.User;
 import org.springframework.stereotype.Service;
 
 

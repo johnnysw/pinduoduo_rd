@@ -1,6 +1,6 @@
-package com.weichuang.pinduoduo.service;
+package com.weichuang.pinduoduo_rd.service;
 
-import com.weichuang.pinduoduo.entity.Product;
+import com.weichuang.pinduoduo_rd.entity.Product;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
