@@ -44,7 +44,7 @@ public class ProductController {
         session.setAttribute("product" , product);
         return "product_info";
     }
-
+    @UserLoginToken
     @RequestMapping("/save.do")
     @ResponseBody
     public String saveProduct(HttpServletRequest rep) throws InvocationTargetException, IllegalAccessException {
@@ -55,7 +55,7 @@ public class ProductController {
         String s = "{\"message\":\"成功\" , \"code\":\"101\"}";
         return JSON.toJSONString(s);
     }
-
+    @UserLoginToken
     @RequestMapping("/update.do")
     @ResponseBody
     public String updateProduct(HttpServletRequest rep ) throws InvocationTargetException, IllegalAccessException {
@@ -66,7 +66,7 @@ public class ProductController {
         String s = "{\"message\":\"成功\" , \"code\":\"101\"}";
         return JSON.toJSONString(s);
     }
-
+    @UserLoginToken
     @RequestMapping("/delete.do")
     @ResponseBody
     public String deleteProduct(HttpServletRequest rep ){
