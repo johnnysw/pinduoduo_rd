@@ -22,21 +22,28 @@
     <update id="updateProduct" parameterType="com.weichuang.pinduoduo_rd.entity.Product">
         UPDATE t_product
         <set>
-            <if test="null != name">
+            <if test="null != name and name != ''">
                 name = #{name},
             </if>
-            <if test="null != price">
+            <if test="null != price and price != ''">
                 price = #{price}
             </if>
-            <where>
-                prod_id = #{prod_id}
-            </where>
         </set>
+        <where>
+            prod_id = #{prod_id}
+        </where>
     </update>
 
     <!-- void deleteProductById(int id);-->
     <delete id="deleteProductById" parameterType="java.lang.Integer">
-        DELETE FROM t_product WHERE prod_id = #{prod_id}
+        UPDATE t_product
+        <set>
+            status = 2
+        </set>
+        <where>
+            prod_id = #{prod_id}
+        </where>
+        <!--DELETE FROM t_product WHERE prod_id = #{prod_id}-->
     </delete>
 
 </mapper>
